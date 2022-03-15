@@ -14,6 +14,7 @@ def encrypt_img(plain_img, key):
     encrypted_img= np.array(range(IMG_SIZE_ROUND * IMG_SIZE_ROUND), int).reshape((IMG_SIZE_ROUND, IMG_SIZE_ROUND))
     for i in range(IMG_SIZE):
         img_bytes= bytes(plain_img[i,:].tolist())
+        # encrypt
         msg =  cipher.encrypt(pad(img_bytes, BLOCK_SIZE))
         for p in msg:
             L2 += [(p)]
@@ -30,22 +31,18 @@ def decrypt_img(encrypted_img, key):
     plain = AES.new(key, AES.MODE_ECB)
     for i in range(IMG_SIZE):
         img_bytes=bytes(encrypted_img[i,:].tolist())
-        
         # decrypt
-        msg = unpad(plain.decrypt(img_bytes), BLOCK_SIZE) 
-        
-        # each pixel is decrypted
+        msg = unpad(plain.decrypt(img_bytes), BLOCK_SIZE)
         for p in msg:
             L2 += [(p)]
-
         decrypted_img[i,:]=L2[:]
         L2=[]
     cv2.imwrite('ecb_mode/decrypted.png', decrypted_img)
     
 
-plain_img = cv2.imread('turtle.png', 0)   # read PLAİN image 300X300
+plain_img = cv2.imread('turtle.png', 0)   # read grayscale image 2D array (300X300)
 
-key = b'very secret key!' # 16-byte key (random may be used)
+key = b'very secret key!' # 16-byte key
 
-dec_img = encrypt_img(plain_img, key) # encrypted image cannot be read
+dec_img = encrypt_img(plain_img, key)
 decrypt_img(dec_img, key)
