@@ -18,6 +18,5 @@ pip3 install -r requirements.txt
 python ecb_mode/ecb.py
 ```
 
-### Result images
-
+### Encrypted Image
 ![alt text](https://github.com/snnehir/CENG474-Hw/ecb_mode/encryptedECB.jpg)
