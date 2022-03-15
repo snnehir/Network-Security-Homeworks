@@ -42,7 +42,7 @@ def decrypt_img(encrypted_img, key, iv):
 
 plain_img = cv2.imread('turtle.png', 0)   # read image 3D
 
-key = b'my very secret k' # 16-byte key (random may be used)
+key = b'my very secret k' # 16-byte key
 iv = b'0000000000000000' # initialization vector
 
 dec_img = encrypt_img(plain_img, key, iv)
