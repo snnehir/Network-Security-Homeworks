@@ -40,7 +40,7 @@ def decrypt_img(encrypted_img, key, iv):
     cv2.imwrite('cbc_mode/decrypted.png', decrypted_img)
 
 
-plain_img = cv2.imread('turtle.png', 0)   # read image 3D
+plain_img = cv2.imread('turtle.png', 0)   # read image (300x300)
 
 key = b'my very secret k' # 16-byte key
 iv = b'0000000000000000' # initialization vector
