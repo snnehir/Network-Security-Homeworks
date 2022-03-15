@@ -19,7 +19,6 @@ Aim of this assignment is to understand the difference between ECB and CBC mode.
 
 Goal: Write a block cipher that encrypts a grayscale image.
 
-For more information: https://www.ubiqsecurity.com/blog/ecb-vs-cbc-block-cipher-mode-differences/
 
 I selected this grayscale picture for reference.
 
@@ -46,3 +45,5 @@ python cbc_mode/cbc.py
 ![encrypted_image_cbc](https://github.com/snnehir/CENG474-Hw/blob/master/cbc_mode/encrypted.png)
 
 Encryption using CBC is more secure since we cannot guess the plain image from encrypted image.
+
+For more information: https://www.ubiqsecurity.com/blog/ecb-vs-cbc-block-cipher-mode-differences/
