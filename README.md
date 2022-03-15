@@ -12,9 +12,12 @@ python -m venv venv
 ```
 pip3 install -r requirements.txt
 ```
-### Run the code in terminal
+### Run the code in terminal for ECB mode
 
 ```
 python ecb_mode/ecb.py
 ```
 
+### Result images
+
+![alt text](https://github.com/snnehir/CENG474-Hw/ecb_mode/encryptedECB.jpg)
