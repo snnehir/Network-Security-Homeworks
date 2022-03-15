@@ -19,7 +19,7 @@ def encrypt_img(plain_img, key):
             L2 += [(p)]
         encrypted_img[i,:]=L2[:]
         L2=[]
-    cv2.imwrite('ecb_mode/encryptedECB.jpg', encrypted_img)
+    cv2.imwrite('ecb_mode/encrypted.png', encrypted_img)
     
     return encrypted_img
 
@@ -40,10 +40,10 @@ def decrypt_img(encrypted_img, key):
 
         decrypted_img[i,:]=L2[:]
         L2=[]
-    cv2.imwrite('ecb_mode/decryptedECB.jpg', decrypted_img)
+    cv2.imwrite('ecb_mode/decrypted.png', decrypted_img)
     
 
-plain_img = cv2.imread('demo300.jpg', 0)   # read PLAİN image 300X300
+plain_img = cv2.imread('turtle.png', 0)   # read PLAİN image 300X300
 
 key = b'very secret key!' # 16-byte key (random may be used)
 
