@@ -16,8 +16,10 @@ pip3 install -r requirements.txt
 
 ## About Assignment
 Aim of this assignment is to understand the difference between ECB and CBC mode.
-For more information: https://www.ubiqsecurity.com/blog/ecb-vs-cbc-block-cipher-mode-differences/
+
 Goal: Write a block cipher that encrypts a grayscale image.
+
+For more information: https://www.ubiqsecurity.com/blog/ecb-vs-cbc-block-cipher-mode-differences/
 
 I selected this grayscale picture for reference.
 
