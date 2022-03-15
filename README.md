@@ -14,8 +14,10 @@ pip3 install -r requirements.txt
 ```
 
 
-## Assignment Detail
+## About Assignment
 Aim of this assignment is to understand the difference between ECB and CBC mode.
+Goal: Write a block cipher that encrypts a grayscale image.
+
 I selected this grayscale picture for reference.
 
 ![demo_image](https://github.com/snnehir/CENG474-Hw/blob/master/turtle.png)
@@ -40,4 +42,4 @@ python cbc_mode/cbc.py
 ### Encrypted image obtained with CBC mode
 ![encrypted_image_cbc](https://github.com/snnehir/CENG474-Hw/blob/master/cbc_mode/encrypted.png)
 
-Encryption using ECB is more secure since we cannot have any idea about the plain image.
+Encryption using CBC is more secure since we cannot have any idea about the plain image.
