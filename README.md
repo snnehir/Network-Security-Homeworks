@@ -5,7 +5,7 @@ This repository includes assignments given in CENG474 Communication and Network 
 
 ### Create virtual environment
 ```
-python -m venv work_env 
+python -m venv venv 
 ```
 
 ### Install required packages
