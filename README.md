@@ -12,11 +12,21 @@ python -m venv venv
 ```
 pip3 install -r requirements.txt
 ```
-### Run the code in terminal for ECB mode
 
+
+## Assignment Detail
+Aim of this assignment is to understand the difference between ECB and CBC mode.
+I selected this grayscale picture for reference.
+
+![demo_image](https://github.com/snnehir/CENG474-Hw/blob/master/demo300.jpg)
+
+
+### To run the code in terminal
 ```
 python ecb_mode/ecb.py
 ```
 
-### Encrypted Image obtained with ECB mode
-![encrypted_image](https://github.com/snnehir/CENG474-Hw/ecb_mode/encryptedECB.jpg)
+### Encrypted image obtained with ECB mode
+![encrypted_image](https://github.com/snnehir/CENG474-Hw/blob/master/ecb_mode/encryptedECB.jpg)
+
+Encryption using ECB mode is not secure since we can see the outline of the original image.
