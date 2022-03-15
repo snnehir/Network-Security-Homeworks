@@ -42,4 +42,4 @@ python cbc_mode/cbc.py
 ### Encrypted image obtained with CBC mode
 ![encrypted_image_cbc](https://github.com/snnehir/CENG474-Hw/blob/master/cbc_mode/encrypted.png)
 
-Encryption using CBC is more secure since we cannot have any idea about the plain image.
+Encryption using CBC is more secure since we cannot guess the plain image from encrypted image.
