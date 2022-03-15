@@ -19,4 +19,4 @@ python ecb_mode/ecb.py
 ```
 
 ### Encrypted Image
-![alt text](https://github.com/snnehir/CENG474-Hw/ecb_mode/encryptedECB.jpg)
+![encrypted_image](https://github.com/snnehir/CENG474-Hw/ecb_mode/encryptedECB.jpg)
