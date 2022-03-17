@@ -22,7 +22,7 @@ pip3 install -r requirements.txt
 
 I selected this grayscale picture for reference.
 
-![demo_image](https://github.com/snnehir/CENG474-Hw/blob/master/turtle.png)
+![demo_image](https://github.com/snnehir/CENG474-Hw/blob/master/Assignment2/turtle.png)
 
 
 ### 1- To run ecb.py in terminal
