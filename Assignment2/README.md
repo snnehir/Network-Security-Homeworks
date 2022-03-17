@@ -9,7 +9,7 @@ Aim of this assignment is to understand the difference between ECB and CBC mode.
 
 ### Create virtual environment
 ```
-python -m venv venv 
+python -m venv my_venv 
 ```
 
 ### Install required packages
