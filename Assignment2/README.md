@@ -1,5 +1,9 @@
-# CENG474-Hw
-This repository includes assignments given in CENG474 Communication and Network Security course.
+# Assignment 2
+
+Aim of this assignment is to understand the difference between ECB and CBC mode.
+
+"Write a block cipher that encrypts a grayscale image."
+
 
 ## Project setup
 
@@ -15,10 +19,6 @@ pip3 install -r requirements.txt
 
 
 ## About Assignment
-Aim of this assignment is to understand the difference between ECB and CBC mode.
-
-Goal: Write a block cipher that encrypts a grayscale image.
-
 
 I selected this grayscale picture for reference.
 
