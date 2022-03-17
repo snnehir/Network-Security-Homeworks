@@ -6,8 +6,6 @@ import cv2 # opencv for using read/write image operations
 BLOCK_SIZE = 16 
 
 
-
-
 def encrypt_img(plain_img, key, IMG_SIZE = 300):
     col = []
     # Block ciphers in ECB or CBC mode require their input to be an exact multiple of the block length. 
@@ -35,6 +33,7 @@ def decrypt_img(encrypted_img, key, IMG_SIZE = 300):
     col=[]
     decrypted_img= np.array(range(IMG_SIZE*IMG_SIZE), int).reshape((IMG_SIZE,IMG_SIZE))
     plain = AES.new(key, AES.MODE_ECB)
+    
     for i in range(IMG_SIZE):
         img_bytes=bytes(encrypted_img[i,:].tolist())
         # decrypt
