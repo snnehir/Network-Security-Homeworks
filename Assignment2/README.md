@@ -48,6 +48,7 @@ python cbc_mode/cbc.py
 Encryption using CBC is more secure since we cannot guess the plain image from encrypted image.
 
 &nbsp;
+#
 &nbsp;
 
 ## Project setup for working with virtual environment in VSCode (optional)
