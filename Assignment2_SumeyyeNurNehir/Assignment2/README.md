@@ -8,6 +8,7 @@ I selected this grayscale picture for reference.
 
 ![demo_image](https://github.com/snnehir/CENG474-Hw/blob/master/Assignment2/turtle.png)
 
+
 ## Project setup
 
 ### You should have Python version 3+ installed
@@ -31,7 +32,7 @@ python ecb_mode/ecb.py
 ```
 
 ### Encrypted image obtained with ECB mode
-![encrypted_image_ecb](https://github.com/snnehir/CENG474-Hw/blob/master/Assignment2/ecb_mode/encrypted.png)
+![encrypted_image_ecb](https://github.com/snnehir/CENG474-Hw/blob/master/Assignment2/results/encrypted_ecb.png)
 
 Encryption using ECB mode is not secure since we can see the outline of the original image.
 
@@ -42,12 +43,14 @@ python cbc_mode/cbc.py
 ```
 
 ### Encrypted image obtained with CBC mode
-![encrypted_image_cbc](https://github.com/snnehir/CENG474-Hw/blob/master/Assignment2/cbc_mode/encrypted.png)
+![encrypted_image_cbc](https://github.com/snnehir/CENG474-Hw/blob/master/Assignment2/results/encrypted_cbc.png)
 
 Encryption using CBC is more secure since we cannot guess the plain image from encrypted image.
 
-&nbsp;
+*Encrypted and decrypted images can be found under each folder.
+
 #
+
 &nbsp;
 
 ## Project setup for working with virtual environment in VSCode (optional)
