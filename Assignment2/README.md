@@ -46,3 +46,22 @@ python cbc_mode/cbc.py
 ![encrypted_image_cbc](https://github.com/snnehir/CENG474-Hw/blob/master/Assignment2/cbc_mode/encrypted.png)
 
 Encryption using CBC is more secure since we cannot guess the plain image from encrypted image.
+
+
+## Project setup for working with virtual environment in VSCode (optional)
+
+### Create Python virtual environment
+```
+cd Assignment2
+python -m venv my_venv 
+```
+
+### Activate virtual environment
+```
+ & my_venv/Scripts/Activate.ps1  
+```
+
+### Install required packages
+```
+pip3 install -r requirements.txt
+```
