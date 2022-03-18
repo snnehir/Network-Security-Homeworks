@@ -1,15 +1,23 @@
 # Assignment 2
 
+Sümeyye Nur Nehir - 18050111058
+
 Aim of this assignment is to understand the difference between ECB and CBC mode.
 
-"Write a block cipher that encrypts a grayscale image."
+I selected this grayscale picture for reference.
 
+![demo_image](https://github.com/snnehir/CENG474-Hw/blob/master/Assignment2/turtle.png)
 
 ## Project setup
 
-### Create virtual environment
+### You should have Python version 3+ installed
+
+https://www.python.org/downloads/release/python-3911/
+
+
+### In command prompt go to project directory
 ```
-python -m venv my_venv 
+cd Assignment2
 ```
 
 ### Install required packages
@@ -17,17 +25,8 @@ python -m venv my_venv
 pip3 install -r requirements.txt
 ```
 
-
-## About Assignment
-
-I selected this grayscale picture for reference.
-
-![demo_image](https://github.com/snnehir/CENG474-Hw/blob/master/Assignment2/turtle.png)
-
-
 ### 1- To run ecb.py in terminal
 ```
-cd Assignment2
 python ecb_mode/ecb.py
 ```
 
@@ -37,9 +36,8 @@ python ecb_mode/ecb.py
 Encryption using ECB mode is not secure since we can see the outline of the original image.
 
 
-### 2- To run cbc.py in terminal
+### 2- To run cbc.py
 ```
-cd Assignment2
 python cbc_mode/cbc.py
 ```
 
@@ -48,4 +46,24 @@ python cbc_mode/cbc.py
 
 Encryption using CBC is more secure since we cannot guess the plain image from encrypted image.
 
-For more information: https://www.ubiqsecurity.com/blog/ecb-vs-cbc-block-cipher-mode-differences/
+&nbsp;
+#
+&nbsp;
+
+## Project setup for working with virtual environment in VSCode (optional)
+
+### Create Python virtual environment
+```
+cd Assignment2
+python -m venv my_venv 
+```
+
+### Activate virtual environment
+```
+ & my_venv/Scripts/Activate.ps1  
+```
+
+### Install required packages
+```
+pip3 install -r requirements.txt
+```
