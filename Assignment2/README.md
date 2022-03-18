@@ -8,7 +8,6 @@ I selected this grayscale picture for reference.
 
 ![demo_image](https://github.com/snnehir/CENG474-Hw/blob/master/Assignment2/turtle.png)
 
-
 ## Project setup
 
 ### You should have Python version 3+ installed
