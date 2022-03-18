@@ -1,7 +1,5 @@
 # Assignment 2
 
-Sümeyye Nur Nehir - 18050111058
-
 Aim of this assignment is to understand the difference between ECB and CBC mode.
 
 I selected this grayscale picture for reference.
