@@ -1,2 +1,1 @@
-# CENG474-Hw
-This repository includes assignments given in CENG474 Communication and Network Security course.
+This repository will self-destruct in a week if I feel stupid.
