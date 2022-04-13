@@ -31,7 +31,7 @@ python main.py
 
     3. Trudy will be satisfied to crack any password in the password file, without using her dictionary. 
 
-    Case 4- Trudy wants to find any password in the hashed password file, using 
+    4. Trudy wants to find any password in the hashed password file, using 
     her dictionary.
 
  I wrote 4 functions to crack the password in each case and calculated the time needed to crack the password.
